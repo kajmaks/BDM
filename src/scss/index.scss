@@ -1,0 +1,13 @@
+@use '@/scss/variables' as *;
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('@/fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Poppins-Medium', sans-serif;
+  margin: 0;
+}
