@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.64 185.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bed600;
+      }
+
+      .cls-2 {
+        fill: #001d77;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-2" points="135.49 147.37 96.97 147.37 131.88 38.53 170.41 38.53 135.49 147.37"/>
+  <polygon class="cls-2" points="77.06 147.37 38.53 147.37 73.44 38.53 111.97 38.53 77.06 147.37"/>
+  <polygon class="cls-1" points="135.52 147.37 95.95 147.37 73.45 38.53 112.95 38.53 135.52 147.37"/>
+  <polygon class="cls-1" points="193.95 147.37 153.27 147.37 131.88 38.53 170.75 38.53 193.95 147.37"/>
+  <polygon class="cls-2" points="193.91 147.37 153.29 147.37 190.43 107.77 231.11 107.77 193.91 147.37"/>
+</svg>

@@ -1,0 +1,117 @@
+@use '@/scss/variables' as *;
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('@/assets/fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins-Medium', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.date-picker {
+  .MuiPickersArrowSwitcher-spacer {
+    width: calc(4 * var(--template-spacing)) !important;
+  }
+
+  .MuiDayCalendar {
+    &-weekContainer,
+    &-header {
+      justify-content: space-between !important;
+    }
+
+    &-weekDayLabel {
+      width: 45px !important;
+      height: 45px !important;
+      font-size: 1rem !important;
+    }
+  }
+
+  .MuiPickersDay-root {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 1rem !important;
+    border-radius: 0.375rem !important; 
+    transition: all 0.2s ease-in-out;
+
+    &:focus,
+    &:focus-visible {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .MuiPickersSlideTransition-root {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .MuiPickersCalendarHeader-label {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+  }
+
+  .MuiYearCalendar-root {
+    width: 100% !important;
+  }
+
+  .MuiDateCalendar-root {
+    width: 380px !important;
+    height: auto !important;
+    max-height: 1000px !important;
+    padding: 1rem;
+    border-radius: 0.5rem; 
+  }
+
+  .MuiCardContent-root,
+  .MuiPaper-root.MuiCard-root {
+    height: auto !important;
+  }
+
+  .MuiIconButton-edgeStart,
+  .MuiIconButton-edgeEnd {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  .MuiIconButton-root {
+    
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    .MuiSvgIcon-root {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .css-m1ihen-MuiGrid2-root{
+    flex-direction: column !important;
+  }
+  
+}
+.MuiSvgIcon-root{
+  border-radius: 20px !important; 
+}
+
